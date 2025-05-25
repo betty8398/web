@@ -126,6 +126,12 @@ div.noto-sans-tc {
     margin-top: 4px;
 }
 
+.tag_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 .title {
     font-weight: 700;
     font-size: 28px;
@@ -149,6 +155,20 @@ div.noto-sans-tc {
     width: 96px;
     text-align: center;
     margin-top: 16px;
+}
+
+.button_tag {
+    color: white;
+    background-color: #0027D5;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 40px;
+    padding-top: 8px;
+    width: 88px;
+    text-align: center;
+    margin-left: 8px;
+    font-weight: 700;
+    box-sizing: border-box;
 }
 
 .container {
